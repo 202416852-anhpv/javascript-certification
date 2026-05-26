@@ -5,9 +5,77 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+main {
+  background-color: #45de6e;
+  border: 2px solid #000000;
+  padding: 48px;
+}
+
+.weather-box {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  padding: 24px;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+.control-panel {
+  display: flex;
+  align-items: center;
+  background-color: #7cf79d;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.control-panel p {
+  margin-right: 200px;
+}
+
+#location {
+  font-size: 48px;
+}
+
+.main-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+hr {
+  margin-bottom: 12px;
+}
+
+.main-weather-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+#location {
+  margin-bottom: 12px;
+}
+
+.weather-detail p {
+  margin-bottom: 12px;
+}
+
+#city-select {
+  height: 44px;
+  width: 160px;
+  font-size: 20px;
+  margin-right: 24px;
+}
+
+#get-weather-btn {
+  height: 44px;
+  width: 160px;
+  font-size: 20px;
 }
