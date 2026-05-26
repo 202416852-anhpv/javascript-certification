@@ -3,7 +3,53 @@
   <head>
     <meta charset="utf-8" />
     <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body></body>
+  <body>
+    <main>
+      <section id="weather-info" class="weather-box">
+        <p id="location"></p>
+
+        <div class="main-stats">
+          <span id="main-temperature"></span>
+          <div>
+            <img id="weather-icon" src="" alt="Weather Icon" />
+            <span id="weather-main"></span>
+          </div>
+        </div>
+
+        <div class="main-weather-box">
+          <div class="weather-detail">
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Feels Like: <span id="feels-like"></span></p>
+            <p>Wind: <span id="wind"></span></p>
+            <p>Gusts: <span id="wind-gust"></span></p>
+          </div>
+
+          <img id="clock" src="" alt="clock-icon" />
+        </div>
+      </section>
+
+      <section class="control-panel">
+        <p>WEATHER FOR:</p>
+
+        <div class="search-box">
+          <select id="city-select">
+            <option value=""></option>
+            <option value="new york">New York</option>
+            <option value="los angeles">Los Angeles</option>
+            <option value="chicago">Chicago</option>
+            <option value="paris">Paris</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="london">London</option>
+          </select>
+        </div>
+
+        <button id="get-weather-btn">Get Weather</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
